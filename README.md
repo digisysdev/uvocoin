@@ -4,17 +4,15 @@ Uvocoin integration/staging tree
 http://www.uvocoin.org
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Uvocoin Developers
+Copyright (c) 2011-2018 Uvocoin Developers
 
 What is Uvocoin?
 ----------------
 
-Uvocoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
-
-The rest is the same as Bitcoin.
+Uvocoin is a cryptocoin that uses scrypt / X11 as a PoW algorithm.
+ - 30 second block targets
+ - subsidy halves in 50000k blocks (~4 years)
+ - ~500 million total coins
  - 50 coins per block
  - 2016 blocks to retarget difficulty
 
@@ -45,7 +43,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/uvocoin-project/uvocoin/tags) are created
+completely stable. [Tags](https://github.com/digisysdev/uvocoin/tags) are created
 regularly to indicate new official, stable release versions of Uvocoin.
 
 Testing
